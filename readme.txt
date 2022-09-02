@@ -1,3 +1,3 @@
-It couldn't be better.
+Taking the excellent work of MRCYJANEK and attempting to build a minimal theme for my own use...
 
 Live demo: https://oldpc.mrcyjanek.net/blog/why-does-this-website-look-like-this
