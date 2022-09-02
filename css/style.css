@@ -1,18 +1,17 @@
 body {
-    margin:40px auto;            /* Center it */
-    background-color: black;
-    color: white;                
-    font-size: 150%;             /* Smaller type works well for print, not the screen. */
-    max-width:650px;             /* If your text hits the side of the browser, fuck off forever. You ever see a book like that? Yes? What a shitty book. */
-    font-family: monospace;
-}
+    font: 400 18px/1.6 sans-serif;
+    padding: 2rem;
+    background: black;
+    color: white;
+  }
+
 a {
    text-decoration: none;        /* No <strike>*/
 } 
-a:link    {color: chartreuse;}   /* unvisited link */
-a:visited {color: chartreuse;}   /* visited link */
-a:hover   {color: cyan;}         /* mouse over link */
-a:active  {color: red;}          /* selected link */
+a:link    {color: rgb(255, 255, 255);}   /* unvisited link */
+a:visited {color: rgb(236, 255, 216);}   /* visited link */
+a:hover   {color: rgb(118, 255, 168);}         /* mouse over link */
+a:active  {color: rgb(0, 255, 55);}          /* selected link */
 pre {
     white-space: pre-wrap;       /* Since CSS 2.1 */
     white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
@@ -20,3 +19,6 @@ pre {
     white-space: -o-pre-wrap;    /* Opera 7 */
     word-wrap: break-word;       /* Internet Explorer 5.5+ */
 }
+
+img { width: 100%; image-rendering: -moz-crisp-edges; image-rendering: pixelated }
+pre, ul, ol, blockquote { margin: 0; padding: 0 1rem }
